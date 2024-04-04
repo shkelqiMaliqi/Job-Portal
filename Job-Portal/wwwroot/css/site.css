@@ -32,3 +32,65 @@ body {
 .container p{
     text-align: center;
 }
+
+.h2_whyus_intro{
+    color : black;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.whyUs_desc{
+   font-family: 'Times New Roman';
+   color: dimgray;
+
+}
+.ourmission {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.whyUs_sectors{
+    display : flex;
+    max-width : 100%;
+    justify-content : space-between;
+
+    //flex-wrap : wrap;
+
+
+}
+.whyUs_spliter {
+    text-align: center;
+}
+.whyUs_Split{
+    
+   
+    font-family: 'Times New Roman' ;
+    font-style: italic; 
+    padding : 30px;
+    
+}
+
+.sector_1 {
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    background-color : whitesmoke;
+}
+
+.sector_1:hover {
+      
+ background-color: darkolivegreen;
+ border-color: whitesmoke;
+ transition : ease 0.7s;
+ color : white;
+ }
+.sector_h2{
+    text-align: center;
+    font-family: 'Bookman Old Style';
+}
+.sector_p {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Bookman Old Style';
+}
